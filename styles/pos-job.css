@@ -1,0 +1,91 @@
+.pos-job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9.6rem 0 0 0;
+}
+
+.positions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.positions h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--cor-2);
+    padding: 0.4rem 1.2rem;
+    background-color: var(--cor-2t);
+    border-radius: 1.6rem;
+    line-height: 2rem;
+    margin-bottom: 1.6rem;
+}
+
+.positions h3 {
+    color: var(--gray-900);
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    letter-spacing: -0.072rem;
+    margin-bottom: 2rem;
+}
+
+.positions p {
+    color: var(--gray-500);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 6.4rem;
+}
+
+.positions img {
+    width: 86vw;
+    border-radius: 5rem 0 5rem 0;
+    margin-bottom: 6.4rem;
+}
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 55vw;
+
+}
+.jobs__container{
+margin-bottom: 6.4rem;
+}
+.jobs__cont__pos{
+    border: 0.1rem solid var(--gray-200);
+    border-radius: 1.6rem;
+    padding: 2.4rem;
+    margin-top: 2.4rem;
+}
+.jobs__cont__text{
+    margin-top: 3.2rem;
+    display: flex;
+    gap: 2.4rem;
+}
+.jobs h2 {
+    color: var(--gray-900);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 1.2rem;
+
+}
+.jobs h3 {
+    color: var(--gray-900);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+.jobs p {
+    color: var(--gray-500);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 150%;
+}

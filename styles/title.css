@@ -1,0 +1,27 @@
+.title {
+    height: 40.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2.4rem;
+
+}
+
+.title h2 {
+    color: var(--cor-2);
+    font-weight: 600;
+
+}
+
+.title h3 {
+    font-size: 4.8rem;
+    color: var(--gray-900);
+}
+
+.title p {
+    font-size: 2rem;
+    color: var(--gray-500);
+    line-height: 150%;
+}

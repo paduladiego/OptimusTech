@@ -1,0 +1,47 @@
+.from{
+    padding: 0 11.2rem 11.2rem 9.6rem;
+}
+.from__box{
+    padding: 6.4rem;
+    border-radius: 1.6rem;
+    background-color: var(--cor-3);
+    text-align: center;
+}
+.from__box h2{
+    color: var(--cor-2);
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 1.6rem;
+}
+.from__box h3{
+    color: var(--gray-900);
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 4.4rem;
+    letter-spacing: -0.072rem;
+    margin-bottom: 3.2rem;
+    
+}
+
+.from__box img {
+    border-radius: 100%;
+    height: 5.6rem;
+    width: 5.6rem;
+    margin-bottom: 1.6rem;
+
+}
+
+.from__box h4{
+    color: var(--gray-500);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 0.8rem;
+
+}
+.from__box p {
+    font-size: 1.4rem;
+    color: var(--gray-500);
+    line-height: 150%;
+}

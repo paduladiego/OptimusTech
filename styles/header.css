@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    padding: 0 11.2rem 0 11.2rem;
+    color: var(--gray-500);
+    
+}
+.menu{
+    flex: 1;
+}
+.logotipo,
+.menu__list,
+.header__acess {
+    display: flex;
+    align-items: center;
+}
+.logotipo{
+    gap: 0.8rem;
+    font-weight: 500;
+    font-size: 1.8rem; 
+    color: var(--cor-logo); 
+    padding-right: 11.2rem;
+}
+.menu__list{
+    gap: 3.2rem;
+    width: 100%;
+}    
+    
+.header__acess{
+    gap: 1.2rem;
+}
