@@ -1,5 +1,7 @@
-/* Padula v1.1 | 20240418
+/* Padula v1.2 | 20240418
    -------- ------ ------ 
+   v1.2
+    - Novos itens
    v1.1
     - strong com bold novamente
     - remoção do normalize
@@ -31,6 +33,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -90,7 +93,41 @@ table {
         .............DESIREDESIREDESIREDESIREDESIREDESIREDESIREDESI
         -->
       */
-      strong{
-        font-weight: bold;
+      b,
+      strong {
+        font-weight: bolder;
       }
-   
+
+      a {
+        text-decoration: none;
+        background-color: transparent;
+
+      }
+
+      hr {
+        box-sizing: content-box;
+        /* 1 */
+        height: 0;
+        /* 1 */
+        overflow: visible;
+        /* 2 */
+      }
+
+      sub,
+      sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+      }
+        
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  img {
+    border-style: none;
+  }

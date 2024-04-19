@@ -31,3 +31,8 @@ header{
 .header__acess{
     gap: 1.2rem;
 }
+a{
+    /* text-decoration: none!important; */
+    color: var(--gray-500);
+
+}

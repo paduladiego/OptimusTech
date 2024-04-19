@@ -35,9 +35,6 @@
     background-color: var(--cor-1);
     
 }
-body2{
-    display: none;
-}
 body{
     font-size: 1.6rem;
     font-family: var(--font-inter);
